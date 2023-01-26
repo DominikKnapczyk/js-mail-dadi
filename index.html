@@ -12,9 +12,9 @@
 </head>
 <body>
   <!-- ESERCIZIO EMAIL ---------------------------------------------------------------------- -->
-
   <div class="ex-email-container">
-    <!-- INPUT EMAIL ESISTENTE -->
+
+    <!-- INPUT EMAIL DA VERIFICARE -->
     <form>
       Inserisci la tua email: <input type="email" id="emailInput">
       <button type="button" onclick="checkEmail()">Verifica</button>
@@ -24,10 +24,22 @@
     <div id="output"></div>
 
     <!-- INPUT NUOVA EMAIL -->
-    <form id="addEmailForm" style="display:none;">
+    <form id="addEmailForm">
       Inserisci l'email da aggiungere alla lista: <input type="email" id="newEmailInput">
       <button type="button" onclick="addEmail()">Aggiungi</button>
     </form>
+  </div>
+
+  <hr>
+
+  <!-- ESERCIZIO DADI ---------------------------------------------------------------------- -->
+  <div class="ex-dadi-container">
+
+    <!-- INPUT BUTTON -->
+    <button type="button" onclick="rollDice()">Lancia i dadi</button>
+
+    <!-- JS DISPLAY -->
+    <div id="output1"></div>
   </div>
 </body>
 </html>
